@@ -47,10 +47,13 @@ and HTML,of course for our frontend
 Flask Documentation: https://flask.palletsprojects.com/en/1.1.x/
 (work is under progress)
 
-## Problems Encountered :-
+## Problems Encountered and Solutions :-
 
-one of the main problem at hand is the accuracy of our model, since there is a cap on the number of posts we can extract and for categories like AMA we have only 3 posts out of 900 (roughly) which causes a lot of biasness towards other categories which can be visualised in the graph (model.ipynb)<br/>
-besides that flask is not very google colaboratory friendly because of the HTTP protocol Methods require Local port (5000)
+Prob: One of the main problem at hand is the accuracy of our model, since there is a cap on the number of posts we can extract and for categories like AMA we have only 3 posts out of 900 (roughly) which causes a lot of biasness towards other categories which can be visualised in the graph (model.ipynb)<br/>
+Sol: instead of using integer vector for reprsentation of sentence/words we will form tf-idf vectors and we can also use some pre-trained models (transfer learning), and one of the obvious solution is we increase the number of dense or LSTM/RNN layers.<br/>
+<br/>
+Prob: Besides that flask is not very google colaboratory friendly because of the HTTP protocol Methods require Local port (5000)<br/>
+Sol: train it locally on your device, hassle free
 
 
 
