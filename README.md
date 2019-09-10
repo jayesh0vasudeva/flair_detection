@@ -49,7 +49,7 @@ Flask Documentation: https://flask.palletsprojects.com/en/1.1.x/
 
 ## Problems Encountered :-
 
-one of the main problem at hand is the accuracy of our model, since there is a cap on the numberof posts we can extract and for categories like AMA we have only 3 posts out of 900 (roughly) which causes a lot of biasness towards other categories which can be visualised in the graph (model.ipynb)<br/>
+one of the main problem at hand is the accuracy of our model, since there is a cap on the number of posts we can extract and for categories like AMA we have only 3 posts out of 900 (roughly) which causes a lot of biasness towards other categories which can be visualised in the graph (model.ipynb)<br/>
 besides that flask is not very google colaboratory friendly because of the HTTP protocol Methods require Local port (5000)
 
 
