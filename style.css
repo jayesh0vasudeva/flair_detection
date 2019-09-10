@@ -1,0 +1,29 @@
+@media screen and (max-width:1000px){
+   .home{
+       height:145vh;
+       width:150vw;
+       background-position: left;
+   }
+   .size img{
+    padding: 30vh 0 0 17vw;
+   }
+   input{
+       width:120vw;
+       font-size: 2em;
+   }
+   .sea{
+       margin-left:40%;
+       height:100px;
+    width:200px;
+    font-size: 2em;
+   }
+   .butt button{
+    margin: 50% 0 0 75%;
+    width:300px;
+    height:100px;
+    font-size: 2em;
+}
+    #search{
+       margin-left:15%;
+    }
+}
