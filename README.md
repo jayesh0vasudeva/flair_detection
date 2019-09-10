@@ -26,3 +26,18 @@ the instance is created in the model.ipynb file <br/>
   <li>Removes the digits in the text</li>
 </ul>
 
+#### Step 2: LSTM Modeling
+<ul>
+  <li>vectorizes the post content, by turning each text into either a sequence of integers or into a vector</li>
+  <li>Limit the dataset to the top 500,00 words</li>
+  <li>we then, set the maximum number of quesries at 250</li>
+  <li>the processed data is then truncated and padded so that they are all in the same length for modeling </li>
+  <li>followed by a conversion of categotical data to numbers</li>
+  <li> TRAIN TEST SPLIT </li>
+  <li>The first layer is the embedded layer that uses 100 length 1D tensors to represent each word</li>
+  <li>The next layer is the LSTM layer with 100 memory units</li>
+  <li>The output layer must create 13 output values, one for each class</li>
+  <li>Activation function is softmax for multi-class classification</li>
+  <li>Because it is a multi-class classification problem, categorical_crossentropy is used as the loss function</li>
+</ul>
+  
